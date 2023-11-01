@@ -1,0 +1,54 @@
+/****************************************************/
+/*      receta de tarta de galletas                 */
+/*      autor: Juan Gonzalez                        */
+/*      fecha: 26-10-2023                           */
+/*      version: 1.0                                */
+/*      comentario: receta tarta de galletas        */
+/****************************************************/
+
+
+
+@font-face {
+    font-family: titulos;
+    src: url(../font/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url(../font/Agbalumo-Regular.ttf);
+}
+
+* {box-sizing: border-box;}                      /* el width incluye el padding
+                                                    el espacio en blanco y lo coge
+                                                    de dentro del cuadro
+                                                    lo haré SIEMPRE */
+
+body {background-color:rgb(0, 128, 111);
+background-image: url(../img/depositphotos_57911289-stock-illustration-cook-objects-doodles-seamless-pattern.jpg);
+background-size: 50%;}
+
+#wrapper {background-color: aliceblue;
+            width: 80%;                         /* el widht va en % */
+            margin:auto;
+            padding: 10%;
+        }
+
+blockquote {border-left:3px solid rgb(0, 128, 128);
+            font-style: italic;                 /* apra poner en cursiva */
+            font-weight: bold;                  /* poner en negrita */
+            background-color: rgb(165, 163, 163);
+            padding:10px;                       /* margin y padding pequeños pueden estar en pixeles*/
+            border-radius: 20px;
+        }
+
+h1 {border: 2px solid rgb(0, 128, 117);
+    text-align: center;
+    padding:10px 0;
+    border-radius:0px 0px 60px 60px;
+    /* sombra de caja */
+    box-shadow: 15px 15px 5px gray;
+}
+
+dt {font-weight: bold;
+    color: rgb(0, 128, 111);
+    font-size: 1.2em;}
