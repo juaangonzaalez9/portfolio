@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: Textos;
+    src: url(../font/BLKCHCRY.TTF);
+}
+@font-face {
+    font-family: runas;
+    src: url(../font/Rahim.ttf);
+}
+/************************************* layout general **************************************/
+
+body {background-image: url(../img/iglesia.jpg);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: textos;
+    font-size:2em ;}
+
+    #wrapper {width: 80%;
+                margin: auto;
+                background-color: rgb(0, 0, 0);}
+
+/************************************* barra de navegacion **************************************/
+
+nav {font-family: runas;}
+
+/************************************* Hero section **************************************/
+
+#Hero{background-image: url(../img/pricipal.webp);
+    height: 95vh;       /**forzar el alto de la hero para ver la foto*/
+    background-size:cover;      /* estira la foto para verla encajar*/
+    background-repeat: no-repeat; 
+    background-position: 60.66%;        /*donde esta el punto de interes*/
+    font-family: Runas;
+    font-size: 2em;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+/**************************** intro ***************************/
+#jose {
+    float: right;
+    width: 30%;
+    margin: 20px;}
+
+h1{text-align: center;
+} 
+
+#dar {
+    float:left;
+
+    }
+
+#L1 {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;}
+
+
+
+/************************************galeria**************************/
+
+#gallery {padding: 5%;}
+
+/*****************************responsividad************************/
+
+@media only screen and (width<650px){
+    #wrapper {width: 95%;}
+    #Hero {background-image: url();}
+    #dar {width: 100%;}
+    #jose {width: 100%;}
+}
+
+
+
+/**********************<a href="https://www.flaticon.es/iconos-gratis/militar" title="militar iconos">Militar iconos creados por RaftelDesign - Flaticon</a> */
+
+/********************** UX Gun  aviones volando*********************/
+/**********************RECEP TİRYAKİ hombre cargando arma *************/
+/*********************** Specna Arms francontirador escondido ***********/
