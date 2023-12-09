@@ -9,7 +9,16 @@
 </head>
 <body>
     <div id="wrapper">    
-    <nav></nav>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#hero">Home</a>
+            <a href="#intro">Introducción y tipos</a>
+            <a href="#gallery">Gallery</a>
+        <a href="javascrit:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </div>
+        </a>
+    </nav>
     <section id="Hero">
     Cofradia
 </section>
@@ -27,17 +36,87 @@
 <p>- Patronales, aquellas hermandades cuyo titular ostenta el patronazgo de la ciudad en la que se erige.</p>
 
 </section>
+
+<!-- sección  de ejemplo de grid a 2 columnas : 1 contenedor grid-2 y 2 columnas dentro col-2 -->
+
+<section id="ejemplo-grid-2">
+
+    <div class="título">Simbolización de la cofradia</div>
+
+    <div class="grid-2">
+        <div class="Simbolización de la cofradia">
+            <p>La cofradía reúne a los creyentes en torno a una advocación de Cristo, de la Virgen o de un santo, un momento de la Pasión o una reliquia, con fines piadosos, religiosos o asistenciales</p>
+            <button>leer mas</button>
+        </div>
+        <div class="col-2">
+        <img src="https://doloresdelpuerto.com/wp-content/uploads/2018/07/crsitotronoiglesia.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
 <section>
+
+        <!-- USO DE ACCORDION PARA RPESENTAR MUCHA INFORMACION EN FORMATO DESPLEGABLE: RPEGUNTAS Y RESPUESTAS ESTRUCTURADO EN VARIOS CAPÍTULOS, ETC... -->
+
+        <section class="accordion" id="overview">
+            <h1 class="title"><a href="#overview">Overview</a></h1>
+            <div class="content">
+                <div class="wrapper">
+                    <p>
+                        This CodePen demonstrates how we can animate the opening and closing
+                        states of an accordion with fancy reveal animation using only CSS. This
+                        concept is suitable for creating <strong>FAQ sections</strong>,
+                        <strong>Table of Contents</strong>, and more.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+<!-- esta seccion tiene un grid de 4 columnas -->
 <section id="gallery">
 <h1>Galeria</h1>
 </h1></section>
 <body>
 <div id="L1">  
-    <img src="./img/ga1.jpg" >
-    <img src="./img/ga2.webp" >
-</div>  
+    <img calss="myImg"src="https://i1.wp.com/www.hermandadsalutacion.com/wp-content/uploads/2013/09/Trono2.jpg" alt="">
+            <h3>trono</h3>
+        </div>
+        <div class="col-4">
+        <img src="https://www.tunicasnazarenas.es/wp-content/uploads/Tunica-nazarena-de-la-hermandad-Las-Aguas-de-Sevilla.jpg" alt="">
+            <h3>tunica</h3>
+        </div>  
+        <div class="col-4">
+            <img src="https://cloud10.todocoleccion.online/antiguedades/tc/2021/10/06/12/291426478_342372478_tcimg_11BCE14F.jpg" alt="">
+                <h3>cingulo</h3>
+            </div>  
+        <div class="col-4">
+            <img src="https://www.dearmonia.com/117-home_default/capirote-de-rejilla-para-nazareno-de-semana-santa.jpg" alt="">
+                <h3>capirote</h3>
+            </div> 
 </section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.instagram.com/juaangonzaalez9/?hl=es" target="_blank" rel="noopener noreferrer">
+                    <img class="ig" src="./img/instagram.png" alt="Instagram">
+                <a href="https://twitter.com/juaangonzaalez9" target="_blank" rel="noopener noreferrer">
+                    <img class="ig" src="./img/Twitter.jpeg" alt="Twitter">
+                </a>
+    </div>
+
+
+</div>
 <section>
-autor: Juan González
+Autor: Juan González
 </section>
 </html>
+
+
